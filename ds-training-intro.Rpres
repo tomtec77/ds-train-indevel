@@ -1,0 +1,120 @@
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+Introduction to Data Science
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic
+font-family: Vollkorn
+
+### Tomás E. Tecce
+Big Data Studio<br>
+Buenos Aires, AR
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px;margin-left: 140px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2016</SPAN></div>
+
+Welcome to the Data Science Training!
+========================================================
+
+Welcome indeed!
+
+
+What is Data Science?
+========================================================
+
+The term "data science" probably appeared in the mid-1990s but became 
+popularised by William Cleveland, computer scientist and statistician then
+at Bell Labs, who in 2001 published the article
+[*Data Science: An Action Plan for Expanding the Technical Areas of the Field of Statistics*](https://utexas.instructure.com/files/35465950/download).
+
+Cleveland defined data science as an **interdisciplinary field larger than
+statistics itself**.
+
+In PDSwR, Zumel & Mount define data science as **the management of a
+process that can transform hypotheses and data into actionable predictions
+and insights**.
+
+Data Science as a "Second Calling"
+========================================================
+
+**Data science draws on many disciplines.** Much of its theoretical basis
+comes from statistics and its way of proceeding draws heavily on
+scientific research, but data science as we know it is strongly influenced
+by technology and software engineering methodologies and has largely
+evolved in groups driven by computer science and information technology.
+
+**These facts mean that in practice data science is often a "second
+calling"**: many data scientists started out as programmers,
+statisticians, business intelligence analysts or scientists. They had
+already mastered a number of the skills needed for data science, and by
+adding some more to their repertoire they turned into effective data
+scientists.
+
+Skills of a Data Scientist
+========================================================
+
+*So, what skills does a data scientist need to have?*
+
+Data science as such is a relatively new field and, honestly, there is an
+utter lack of agreement on what a curriculum on this subject should look
+like. What is clear, however, is that **you need to learn a lot of
+stuff.**
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/Data_Science_VD.png"></img></div></div>
+
+
+Skills of a Data Scientist
+========================================================
+
+<br><br><br>
+You'll often find diagrams like the one on the right. [It was proposed by
+Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram),
+data scientist, CEO and founder of Alluvium, as an attempt to define (at a
+high level) what it takes to become a successful data scientist.
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/Data_Science_VD.png"></img></div></div>
+
+
+
+Skills of a Data Scientist
+========================================================
+
+Recently I've come across this version which adds an extra dimension, just
+as important: *communication skills*.
+
+We'll use this diagram as a starting point for a discussion, noting where
+you probably are in it depending on your background and what you should do
+next. Then it'll be up to you to decide whether data science is
+actually your thing!
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
