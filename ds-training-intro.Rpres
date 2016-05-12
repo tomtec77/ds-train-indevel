@@ -110,11 +110,169 @@ actually your thing!
 
 ***
 
-<div class="midcenter"><div style="margin-left:-0px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+## Your goal:
+
+This region is where you want to be; blending skills from statistics,
+programming and domain knowledge.
+
+If your communication skills are lacking but you're good in all the other
+areas, you'll be able to do core data science but you're missing an
+important part!
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/goal.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're **coming from academia** you are likely starting out from here.
+
+Your main challenge is acquiring domain expertise - if you have a business
+analyst in your team you should work closely together - and learning to
+communicate with non-technical people about your work (you'll be doing
+that a lot, so put some serious thought into it - it's not trivial).
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_academia.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're a **business analyst or actuary** you are somewhere around here.
+You probably have good domain knowledge and statistical skills, what you
+need is the programming and machine learning part.
+
+Note that relative to the goal you are in the region opposite to the
+scientist - that's why both profiles complement each other very well!
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_ba.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're coming from **computer science or programming** and have
+**little or no statistics or research experience**... you're in the
+"danger zone"!
+
+You know enough to grab data and program what looks like a legitimate
+analysis, but you lack the theoretical basis to understand if what you
+did is actually valid...
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_compsci.png"></img></div></div>
+
 
 Slide With Plot
 ========================================================
 
-```{r, echo=FALSE}
-plot(cars)
-```
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-250px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/dstoolkit_datasciencelondon.png"></img>
+<figcaption><small>Source: http://datasciencelondon.org</small></figcaption></figure></div></div>
+
+
+Slide With Plot
+========================================================
+
+*Do you really have to know all that?*
+
+**Short answer: No, not really.**
+
+**Longer answer: Well, it depends...**
+
+- Where are you going to work?
+- Who will be working with you?
+- For whom are you going to work?
+
+
+Slide With Plot
+========================================================
+
+This is a **very simplified** view of the data science process:
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; width=640px; border:0px; box-shadow:none;" src="images/dsprocess_simple.png"></img></div></div>
+
+<br><br><br><br><br>
+(*Actually, it is hardly ever a linear process - we'll get back to this...*)
+
+As mentioned before, data science draws on many disciplines and
+technologies. This is not only due to the diversity of the problems it
+attempts to solve, but also because of the different tools needed at the
+various stages of a project.
+
+
+Slide With Plot
+========================================================
+
+*Will* **you** *have to do all of this?*
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; width=640px; border:0px; box-shadow:none;" src="images/dsprocess_simple.png"></img></div></div>
+
+<br><br><br><br><br>
+To be a good data scientist **you should certainly get involved in all the
+stages of a project**, but whether you'll actually do them yourself is
+another matter.
+
+People were expecting data scientists to **actually do it all**,
+which gave rise to the mythical "Data Science Unicorn".
+
+
+Data Science can be a Team Sport
+========================================================
+
+### There is no 'I' in 'Data Science Team'!
+
+Actually, there is one... "I focus on stating the problem, defining the
+data we need, the analysis and extracting insights. The rest of the team
+helps me make it work!"
+
+This is a major advantage of being a data scientist here at Globant. We
+work in teams, and there are plenty of skilled professionals who will
+likely be in charge of business analysis, data extraction, and creating 
+visualisations.
+
+
+Must-Have Starting Skills
+========================================================
+
+- **Math, Statistics and Probability**
+  - <small>These provide the bulk of the theoretical basis of data
+  science. You don't need to know all the arcana of statistics, but you
+  should be confident with concepts like descriptive measures, probability
+  distributions, hypothesis testing.</small>
+- **Programming in R or Python**
+  - <small>Together they are the *lingua franca* of data science. Knowing
+  one of the two will suffice, but you should aim at being proficient in
+  one and have a sound knowledge of the other. This includes plotting!</small>
+- **SQL**
+  - <small>You'll spend a lot of time querying databases, so you need a
+  good grasp of SQL. No need for database administration knowledge, but
+  you should know the `SELECT` command inside out!</small>
+
+  
+Nice-To-Know Skills
+========================================================
+
+- **Big Data**
+  - <small>A must-have for some - I think it's not, as I believe the core
+  of  data science is actually machine learning. However, given the growth
+  of data everywhere, the problems you'll be asked to solve will
+  increasingly involve big data. (*And at Globant we're part of the Big
+  Data Studio...*)</small>
+- **Data Mining / Business Intelligence Tools**
+  - <small>Pentaho, RapidMiner, Tableau... It's great if you know how to
+  use them, but if you don't, no worries - plenty of skilled BI people
+  here at Globant that can help with that if necessary.</small>

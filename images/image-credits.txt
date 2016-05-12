@@ -3,3 +3,4 @@ Image credits
 
 aiQeT.png: http://i.stack.imgur.com/aiQeT.png (https://www.linkedin.com/in/souroneil?authType=name&authToken=GInr&trk=hp-feed-member-name)
 Data_Science_VD.png: http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+dstoolkit_datasciencelondon.png: http://datasciencelondon.org/the-platypus-billed-data-scientist-and-unknown-unknowns/
