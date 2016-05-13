@@ -1,0 +1,77 @@
+---
+title: "Untitled"
+output: html_document
+theme: cerulean
+css: style.css
+---
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This document describes the set up of the Debian Linux virtual machine
+we'll use in the course, for Linux users. The installation instruction are
+for Ubuntu 14.04 64-bit - contact me if you need help installing in a
+different Linux distribution.
+
+## Install Oracle VirtualBox
+
+Add the following line to your `/etc/apt/sources.list` file:
+
+```
+deb http://download.virtualbox.org/virtualbox/debian trusty
+```
+Download the Oracle public key for secure APT from
+https://www.virtualbox.org/download/oracle_vbox.asc and add it with
+
+``` bash
+sudo apt-key add oracle_vbox.asc
+```
+
+Now install VirtualBox with
+
+``` bash
+sudo apt-get update
+sudo apt-get install virtualbox-5.0 dkms
+```
+
+
+## Install Vagrant
+
+Download Vagrant from https://www.vagrantup.com/downloads.html, the latest
+version at the time of writing is 1.8.1. For Debian-based distributions it
+comes as a `.deb` package, install it with
+
+``` bash
+sudo dpkg -i vagrant_1.8.1_x86_64.deb
+```
+
+After the installation is complete we'll add a couple of plugins. First
+install the `vagrant-vbguest` plugin to automatically install the
+appropriate VirtualBox guest additions,
+
+``` bash
+vagrant plugin install vagrant-vbguest
+```
+
+and if you will be working behind a corporate proxy, add the
+`vagrant-proxyconf` plugin (if you are not connecting to Internet through
+a proxy, you can skip this one)
+
+``` bash
+vagrant plugin install vagrant-proxyconf
+```
+
+## Download and install the VM
+
+Get the provisioning scripts for the VM by cloning this repository:
+
+``` bash
+git clone https://github.com/tomtec77/ds-training-machine
+```
+
+Descend into the `ds-training-machine` directory, and start the VM by
+running `vagrant up`. 

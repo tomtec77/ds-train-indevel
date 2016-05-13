@@ -276,3 +276,46 @@ Nice-To-Know Skills
   - <small>Pentaho, RapidMiner, Tableau... It's great if you know how to
   use them, but if you don't, no worries - plenty of skilled BI people
   here at Globant that can help with that if necessary.</small>
+
+
+Resources: Learning R
+========================================================
+
+- **Try R** at Code School (http://tryr.codeschool.com)
+- **Introduction to R** at DataCamp (https://www.datacamp.com/courses/free-introduction-to-r)
+- Coursera's **R Programming** course, part of the JHU Data Science
+Specialization (https://www.coursera.org/learn/r-programming/)
+- edX's **Explore Statistics with R** course (https://www.edx.org/course/explore-statistics-r-kix-kiexplorx-0)
+- *An Introduction to R* by W. N. Venables, D. M. Smith and the R Core Team (https://cran.r-project.org/doc/manuals/R-intro.pdf)
+
+
+Resources: Learning Python
+========================================================
+
+- Codecademy's **Python Course** (https://www.codecademy.com/learn/python)
+- Google's **Python Class** (https://developers.google.com/edu/python/?csw=1)
+- Coursera's **Python for Everybody Specialisation**, 5 courses (https://www.coursera.org/specializations/python)
+- *Think Python (2nd Edition)* by Allen Downey (http://greenteapress.com/wp/think-python-2e/)
+- *Learn Python the Hard Way* by Zed Shaw (http://learnpythonthehardway.org/)
+
+
+Resources: Learning SQL
+========================================================
+
+- **SQL Tutorial** at SQLZOO (http://sqlzoo.net/wiki/SQL_Tutorial)
+- **Learn SQL** at Codecademy (https://www.codecademy.com/learn/learn-sql)
+- **SQL Tutorial** at W3Schools (http://www.w3schools.com/sql/default.asp)
+- **MySQL Tutorial** website (http://www.mysqltutorial.org)
+- *SQL for Web Nerds* by Philip Greenspun (http://philip.greenspun.com/sql/)
+- `SQLfiddle`, a tool to test queries (http://sqlfiddle.com)
+
+
+Resources: Learning Statistics
+========================================================
+
+- Coursera's **Basic Statistics** course (https://www.coursera.org/learn/basic-statistics/)
+- Tutorials and tools at **Stat Trek** (http://stattrek.com)
+- **Intro to Statistics** at Udacity (https://www.udacity.com/course/intro-to-statistics--st101)
+- *Think Stats (2nd Edition)* by Allen Downey (http://greenteapress.com/thinkstats2/index.html)
+- *The Elements of Statistical Learning* by T. Hastie, R. Tibshirani and J. Friedman (http://statweb.stanford.edu/~tibs/ElemStatLearn/)
+- *Introduction to Statistical Thought* by Michael Lavine (http://people.math.umass.edu/~lavine/Book/book.html)
