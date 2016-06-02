@@ -43,3 +43,157 @@ than the outline given in the introduction.
 <div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
 <figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/ds-cycle.png"></img><figcaption><small>From PDSwR, Chapter 1</small></figcaption></figure></div></div> 
 
+
+The Data Science Project Cycle
+========================================================
+right: 65%
+
+The process involves **a lot of feedback and iteration** - you'll often
+loop back and forth between two or more stages before moving forward in
+the overall process. *This frequent backtracking is inherent to any
+process that involves discovery, and must be accounted for during
+planning!*
+
+***
+
+<div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/ds-cycle.png"></img><figcaption><small>From PDSwR, Chapter 1</small></figcaption></figure></div></div> 
+
+
+Stage 1: Defining the Goal
+========================================================
+
+Your first task is to **define a quantifiable goal** - a concrete goal
+begets concrete stopping conditions and acceptance criteria.
+
+- Why does your client want the project?
+- What are they doing to solve the problem now, and why isn't that good
+enough?
+- What resources will you need? Will you have domain experts to
+collaborate with?
+- How will the results be deployed?
+
+Sometimes more exploratory projects are needed, but you can still scope
+the project with concrete stopping conditions (e.g. a time limit).
+
+
+Stage 2: Getting and Cleaning Data
+========================================================
+
+Identify the data you need, explore it and process it in order to make it
+suitable for analysis. **This stage is the most important and most
+time-consuming step in the whole process.** If you don't understand your
+data, no amount of machine learning wizardry will help you!
+
+- What data is available?
+- Will it help solve the problem?
+- Is it enough?
+- How about its quality?
+
+
+Stage 2: Getting and Cleaning Data
+========================================================
+
+At this stage you conduct **initial exploration and visualization of the
+data, repair data errors and transform variables as needed**. You may
+discover that:
+
+- the data is unsuitable,
+- you need additional information,
+- there are things in the data that raise issues more important than the
+one you originally planned to address.
+
+It's common to cycle back and forth between this stage and the previous
+one, as well as between this stage and the modelling stage, as you
+discover things in the data.
+
+
+Stage 3: Modeling
+========================================================
+
+Here you try to **extract useful insights from the data by means of
+statistics and machine learning** in order to achieve your data science
+goals.
+
+Since many modeling procedures make specific assumptions about data
+distribution and relationships, there will be overlap and back-and-forth
+between this stage and the data cleaning stage as you try to find the best
+form in which to model the data.
+
+
+Stage 3: Modeling
+========================================================
+
+### Common modeling tasks
+
+- **Classification**: deciding if something belongs to one category or
+another
+- **Scoring**: predicting or estimating a numeric value, e.g. a price or 
+probability
+- **Ranking**: ordering items by preferences
+- **Clustering**: grouping items by similarity
+- **Finding relations**: finding correlations or potential causes of
+effects seen in the data
+- **Characterization**: plotting and report generation from data
+
+
+Stage 4: Model Evaluation
+========================================================
+
+Once you have a model:
+
+- Is it accurate enough? Does it generalize well?
+- Does it perform better than simple guesses or the current estimates?
+- Do the results make sense in the context of the problem domain?
+
+If the answer to any of these questions is "no", you need to either go
+back to the modelling or to the data collection step - *or decide that the
+data doesn't support the goal you're trying to achieve*.
+
+
+Stage 5: Presentation and Documentation
+========================================================
+
+If your model meets the acceptance criteria, you'll **present your
+results** to your client and other stakeholders. You must also **report on
+interesting finds** during data exploration, and **document the model
+building process** for those who will be responsible for using, running
+and maintaining the model once it's been deployed.
+
+Different audiences require different kinds of information:
+
+- *Business-oriented audiences* want to understand the impact of your
+findings in terms of business metrics.
+- For *end users*, emphasize how the model will help them do their job
+better.
+
+
+Stage 6: Model Deployment
+========================================================
+
+**Often when the model is deployed you, as data scientist, no longer have
+primary responsibility for its day-to-day operation.** Nevertheless, you
+should still ensure that the model runs smoothly and doesn't make
+disastrous unsupervised decisions.
+
+**You also want to make sure that the model can be updated as its
+environment changes.** And in many situations the model will initially be
+deployed in a **pilot program** - this test may bring out issues that you
+didn't anticipate and the model may have to be adjusted accordingly.
+
+
+Setting Expectations
+========================================================
+
+This is a crucial part of defining goals and success criteria.
+
+- Before you get too deep into a project, you should make sure that the 
+resources you have are enough for you to meet the business goals.
+- Understand how well a model should do for acceptable performance: devise
+a *null model* for comparison (either the simplest possible model or the
+existing solution).
+- Try to get some idea of the limitations of your data early in the
+process, so you know whether it's adequate to meet your goals.
+
+**Keep all stakeholders informed and involved - no one connected with the
+project should be surprised by the final results.**
