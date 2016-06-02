@@ -1,0 +1,36 @@
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+Roles in a Data Science Project
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic
+font-family: Vollkorn
+
+### Tomás E. Tecce
+Big Data Studio<br>
+Buenos Aires, AR
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px;margin-left: 140px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2016</SPAN></div>
+
+
+The Data Science Project Cycle
+========================================================
+Used car salesmen.
