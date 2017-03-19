@@ -1,0 +1,171 @@
+---
+title: "dstrain_01_02_whatisDS"
+author: "Tomás E. Tecce"
+date: "February 3, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 1
+
+Data science is currently getting a lot of hype, with some people going so
+far as to call it "the 21st Century's sexiest job". As a discipline, data
+science is relatively new, even though many of the techniques it uses have
+been around for decades. And though there is a general consensus on what
+the fundamentals of data science are, there's plenty of different views on
+its particulars and scope.
+
+What follows is my personal interpretation of what data science is.
+
+
+## Slide 2
+
+The name "data science" itself has been around for a while. It probably
+appeared sometime in the mid-1990s, but started to gain popularity after
+the publication, in 2001, of an article by William Cleveland (computer
+scientist and statistician then at Bell Labs) titled *Data Science: An
+Action Plan for Expanding the Technical Areas of the Field of Statistics*.
+
+Here's the first page of the article. Right at the beginning we can read
+that this "action plan" proposed by Cleveland has a focus on the data
+analyst, that is a focus on practical applications rather than on theory.
+His plan implies substantial change, and the outcome is much more than
+just applied statistics; thus, he gives the transformed field the name of
+"data science".
+
+
+## Slide 3
+
+This new field of data science is an interdisciplinary field, which goes
+beyond statistics to include machine learning, fundamentally, and many
+other practices enabled or enhanced by recent developments in information
+technology. Data science tackles a wide variety of problems, not only from
+business but also from other areas such as public administration or
+healthcare.
+
+
+## Slide 4
+
+What about us? Well, here's our definition. We will define data science as
+the management of a process that can transform hypotheses and data into
+actionable predictions and insights.
+
+The key word here is **process**.
+
+
+## Slide 5
+
+What does this process look like? Well, it will be the topic of a lecture
+on its own, but for illustration purposes here is a preview. Warning: this
+is a **very** simplified picture! It is hardly ever a linear,
+straightforward process, as we'll see when we consider it in detail in a
+later video. But, for starters, we need to go over these stages: formulate
+the problem, collect and process the data, do some machine learning and
+finally present our results in a useful manner.
+
+At each of the different stages we'll require different tools to complete
+the necessary tasks. This fact, added to the wide variety of problems that
+data science tackles, gives the field its interdisciplinary character.
+
+
+## Slide 6
+
+Let's briefly go over these stages. All data science projects
+start, or should start, with the formulation of the problem. More
+precisely, with a question or a definite goal. For example: how can I
+increase the engagement of my customers? Can I automatically detect happy
+or angry clients? What should I do to optimize energy consumption? How
+should I allocate available resources to best administer healthcare?
+
+With a precise question or goal we can then formulate a plan of action and
+identify the type of machine learning task we will require. Is it a
+classification problem? Regression? Clustering? What kind of data will I
+need to make predictions? Don't worry if any of these terms do not sound
+familiar; during this training we'll learn what those methods are about.
+
+
+## Slide 7
+
+Once we have formulated the problem, we now need to collect, process and,
+most importantly, **understand** the data. You really cannot afford to go
+quickly over this stage. Many models fail because people make wrong
+assumptions about their data. Plotting your data is a must! Plots are
+irreplaceable tools to help you make sense of the data. Make as many as
+you need, and then some more!
+
+As a working data scientist, you will spend the majority of your time in
+any given project working on this stage. You need to make sure you know
+your data very well before moving on, and you'll frequently come back to
+this stage when later modelling and analysis reveal surprising or
+unexpected behavior.
+
+
+## Slide 8
+
+With the data carefully analyzed and processed, now comes the time when we
+employ machine learning algorithms to build a model, which we use to make
+predictions and attempt to answer the question that we began with. In
+general we need to try out different models to find out which one performs
+best (according to expectations we have set at the beginning of the
+project). We'll also have to take into consideration the cost of
+implementing different possible solutions.
+
+Now a warning: machine learning is certainly the core of data science, but
+it's not what you'll spend most of your time doing. And it's also not just
+a "software engineering" matter of plugging a data pipeline at one end, a
+machine learning prepackaged kit in the middle, and a data visualization
+at the other end. Dedicated work in understanding the data at the previous
+stage will pay off here, and careless or hasty work in data processing
+will result in costly mistakes when modeling. Machine learning does not do
+magic: if you feed it garbage, it will return garbage. Sometimes
+gold-plated, but garbage nonetheless.
+
+
+## Slide 9
+
+Finally, once we have a good enough model (we'll see in later lectures
+what it means to be "good enough") we need to communicate the results via
+a report, a visualization, an application; the extracted knowledge and
+insights leads to better decision making.
+
+In the illustration here, we have a scenario where a user is faced with
+growing energy costs, has lots of data but cannot make any sense of it.
+Applying data science, we go from the question "how can I reduce my energy
+consumption?" via data and analysis to an app which helps this consumer to
+make informed decisions and be more energy efficient.
+
+## Slide 10
+
+As we mentioned before, the areas of application for data science are
+many. Here's a list of just a few examples.
+
+- One very common application is developing systems to generate product
+recommendations, such as the ones used by Amazon or Netflix. Given a
+user's profile, we want to recommend a movie or book or some other product
+that he may be interested in and will likely purchase, as opposed to
+suggesting a product at random or simply pushing the most popular items.
+- Another application is understanding the behavior of clients, in order
+to predict when they will leave, for example, or if we could interest
+them in a different class of products or services.
+- We can also define strategies, determine what is the optimum mix of
+products in a store...
+- Or design an effective supply chain model.
+- Another common use is targeted advertisement: for a given user, create a
+personalized marketing strategy according to her history and preferences.
+- And also, detecting and analyzing fraud: are purchases legitimate? In a
+system that handles hundreds of thousands of transactions every day, which
+cannot all be delayed for inspection by a human auditor, can we
+automatically detect and flag suspicious cases?
+- And these are just a small sample of the applications of the methods
+included under the umbrella of data science.
+
+## Slide 11
+
+To summarize: data science is about managing a process which, starting
+from a question, turns data into actionable predictions and insights.
+Given the breadth of its scope, this new field draws on many disciplines
+and technologies; machine learning is at its core, but it is much more
+than that, with a strong spirit of research and discovery.
