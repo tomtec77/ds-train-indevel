@@ -11,17 +11,46 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Slide 1
 
-Data science is currently getting a lot of hype, with some people going so
-far as to call it "the 21st Century's sexiest job". As a discipline, data
-science is relatively new, even though many of the techniques it uses have
-been around for decades. And though there is a general consensus on what
-the fundamentals of data science are, there's plenty of different views on
-its particulars and scope.
+Data science is currently getting a lot of hype. Here is for example this
+article, which appeared in October 2012 in the Harvard Business Review,
+which straight away calls data science "the 21st Century's sexiest job".
+That is probably a bit of an exaggeration, although we data scientists are
+unlikely to object to being called "sexy".
+
+
+## Slide 2
+
+The field of data science is experiencing tremendous growth. Here are some
+current trends, extracted from an article which appeared on Forbes
+magazine in October 2016.
+
+- First, the demand for deep analytical talent in the U.S. is projected to
+be 50-60 per cent greater than supply by 2018, leading to a massive
+shortage of qualified data scientist, analysts and managers.
+- In the first quarter of 2015, the number of job postings for data
+scientist grew 57% year-over-year while searches for data scientist grew
+73.5% for the same period, as more and more companies become interested in
+applying data science.
+- Data scientist was ranked the best job in the U.S. because of its high
+earning potential, abundant career opportunities, and number of job
+openings.
+
+
+## Slide 3
+
+Right, so it's a growing and exciting field, but what is it exactly?
+
+As a discipline, data science is relatively new, even though many of the
+techniques it uses have been around for decades. For some people (myself
+included) data science is truly a new field, but for others it is a
+faddish misrepresentation of work that has already been done. And though
+there is a general consensus on what the fundamentals of data science are,
+there's plenty of different views on its particulars and scope.
 
 What follows is my personal interpretation of what data science is.
 
 
-## Slide 2
+## Slide 4
 
 The name "data science" itself has been around for a while. It probably
 appeared sometime in the mid-1990s, but started to gain popularity after
@@ -37,7 +66,7 @@ just applied statistics; thus, he gives the transformed field the name of
 "data science".
 
 
-## Slide 3
+## Slide 5
 
 This new field of data science is an interdisciplinary field, which goes
 beyond statistics to include machine learning, fundamentally, and many
@@ -47,7 +76,7 @@ business but also from other areas such as public administration or
 healthcare.
 
 
-## Slide 4
+## Slide 6
 
 What about us? Well, here's our definition. We will define data science as
 the management of a process that can transform hypotheses and data into
@@ -56,7 +85,7 @@ actionable predictions and insights.
 The key word here is **process**.
 
 
-## Slide 5
+## Slide 7
 
 What does this process look like? Well, it will be the topic of a lecture
 on its own, but for illustration purposes here is a preview. Warning: this
@@ -71,7 +100,7 @@ the necessary tasks. This fact, added to the wide variety of problems that
 data science tackles, gives the field its interdisciplinary character.
 
 
-## Slide 6
+## Slide 8
 
 Let's briefly go over these stages. All data science projects
 start, or should start, with the formulation of the problem. More
@@ -87,7 +116,7 @@ need to make predictions? Don't worry if any of these terms do not sound
 familiar; during this training we'll learn what those methods are about.
 
 
-## Slide 7
+## Slide 9
 
 Once we have formulated the problem, we now need to collect, process and,
 most importantly, **understand** the data. You really cannot afford to go
@@ -103,7 +132,7 @@ this stage when later modelling and analysis reveal surprising or
 unexpected behavior.
 
 
-## Slide 8
+## Slide 10
 
 With the data carefully analyzed and processed, now comes the time when we
 employ machine learning algorithms to build a model, which we use to make
@@ -124,7 +153,7 @@ magic: if you feed it garbage, it will return garbage. Sometimes
 gold-plated, but garbage nonetheless.
 
 
-## Slide 9
+## Slide 11
 
 Finally, once we have a good enough model (we'll see in later lectures
 what it means to be "good enough") we need to communicate the results via
@@ -138,7 +167,7 @@ consumption?" via data and analysis to an app which helps this consumer to
 make informed decisions and be more energy efficient.
 
 
-## Slide 11
+## Slide 12
 
 To summarize: data science is about managing a process which, starting
 from a question, turns data into actionable predictions and insights.
