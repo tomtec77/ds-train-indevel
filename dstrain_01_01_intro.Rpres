@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i;subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 
 <style>
 .footer {
@@ -20,8 +20,8 @@ Welcome!
 ========================================================
 autosize: true
 font-import: https://fonts.googleapis.com/css?family=Raleway
-font-family: Raleway
-css: style2.css
+font-family: Roboto Slab
+css: style3.css
 
 ## Data Science Training 2017
 
@@ -33,7 +33,7 @@ Globant Data Science Training
 
 <br><br><br><br><br><br><br><br>
 
-## Tomás E. Tecce
+## Tomas E. Tecce
 Data Scientist<br>
 Big Data Studio, Buenos Aires, AR<br>
 tomas.tecce@globant.com
@@ -67,4 +67,4 @@ science project to complete after successful completion of the course.
 
 ========================================================
 
-# Questions?
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>
