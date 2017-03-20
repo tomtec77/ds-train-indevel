@@ -1,0 +1,210 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i;subset=latin-ext" rel="stylesheet" type="text/css">
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+Data Science Skills
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Raleway
+font-family: Raleway
+css: style3.css
+
+### Tomás E. Tecce
+#### Data Scientist, Big Data Studio
+
+<div class="midcenter"><div style="margin-left:-0px; margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px; margin-left: 200px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2017</SPAN></div>
+
+
+Skills Needed for Data Science
+========================================================
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-250px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/dstoolkit_datasciencelondon.png"></img>
+<figcaption><small>Source: http://datasciencelondon.org</small></figcaption></figure></div></div>
+
+
+Skills Needed for Data Science
+========================================================
+
+*Do you really have to know all that?*
+
+**Short answer: No, not really.**
+
+**Longer answer: Well, it depends...**
+
+- Where are you going to work?
+- Who will be working with you?
+- For whom are you going to work?
+
+
+Skill Needed for Data Science
+========================================================
+
+*Will* **you** *have to do all of this?*
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; width=640px; border:0px; box-shadow:none;" src="images/dsprocess_simple.png"></img></div></div>
+
+<br><br><br><br><br><br>
+To be a good data scientist **you should certainly get involved in all the
+stages of a project**, but whether you'll actually do them yourself is
+another matter.
+
+People were expecting data scientists to **actually do it all**,
+which led to the idea of the mythical "Data Science Unicorn".
+
+
+No, You Won't Find Him Anywhere
+========================================================
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-275px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/2f0c072.jpg"></img></div></div>
+
+
+Well, You May Find One...
+========================================================
+
+### But it's not the one you're looking for
+#### Why? Because you can't afford him!
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-100px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/obi-wan.jpg"></img></div></div>
+
+
+Data Science as a Team Sport
+========================================================
+
+### There is no 'I' in 'Data Science Team'!
+
+Actually, there is one... "I focus on stating the problem, defining what
+data we need, the analysis and extracting insights. The rest of the team
+helps me make it work!"
+
+<div class="midcenter"><div style="margin-left:-350px;margin-top:-150px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="500" src="images/data-science-team.jpg"></img></div></div>
+
+
+
+Skills of a Data Scientist
+========================================================
+
+A data scientist should aim at a combination of skills: statistics,
+research, programming, communication.
+
+*But what are the fundamentals? What is optional or could be left for
+later?*
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+
+
+Must-Have Starting Skills
+========================================================
+
+## Experience with, or Interest in, Research
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Data science is about **discovery**. The way in which we formulate
+questions and figure out a way to answer them draws a lot from research
+science.
+</SPAN>
+
+- If you have experience with that, great!
+- If you don't, at least you should like the idea!
+
+
+Must-Have Starting Skills
+========================================================
+
+## Math, Statistics and Probability
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+These provide the bulk of the theoretical basis of data science. You don't
+need to know all the arcana of statistics, but you should be confident
+with concepts like:
+</SPAN>
+
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">descriptive measures</SPAN>
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">probability distributions</SPAN>
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">hypothesis testing</SPAN>
+
+  
+Must-Have Starting Skills
+========================================================
+
+## Programming in R or Python
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Together they are the *lingua franca* of data science. Knowing one of the
+two will suffice, but you should aim at being proficient in one and have a
+decent knowledge of the other. This includes plotting!
+</SPAN>
+
+
+Must-Have Starting Skills
+========================================================
+
+## Databases
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+You'll spend a lot of time querying databases, so you need a good grasp of
+SQL.</SPAN>
+
+No need for database administration knowledge, but you should know
+the `SELECT` command inside out!
+
+  
+Nice-To-Know Skills
+========================================================
+
+## Big Data
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Data science is a process of turning data into insights, no matter what
+the size of the data.
+</SPAN>
+
+However, given the growth of data everywhere, the problems you'll be asked
+to solve will increasingly involve big data.
+
+
+Nice-To-Know Skills
+========================================================
+
+## Big Data
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+This initial training **will not cover big data topics in depth** because
+we want to focus on the core aspects of data science.
+</SPAN>
+
+
+Nice-To-Know Skills
+========================================================
+
+## Data Mining / Business Intelligence Tools
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Data science can be thought of as an offshoot of business intelligence,
+however it has quickly evolved into a separate discipline with an ethos
+of its own.
+</SPAN>
+
+BI tools such as Pentaho, RapidMiner or Tableau aren't frequently used by
+data scientists.
+
+They can be useful, however, especially for data exploration and
+visualization of results.

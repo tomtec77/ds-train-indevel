@@ -1,0 +1,142 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+The Data Scientist
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Raleway
+font-family: Roboto Slab
+css: style3.css
+
+### Tomás E. Tecce
+#### Data Scientist, Big Data Studio
+
+<div class="midcenter"><div style="margin-left:-0px; margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px; margin-left: 200px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2017</SPAN></div>
+
+
+Data Science as a "Second Calling"
+========================================================
+
+## Data science draws on many disciplines
+- Much of its theoretical basis comes from statistics
+- Its way of proceeding draws heavily on scientific research
+- Strongly influenced by technology and software engineering methodologies
+
+
+Data Science as a "Second Calling"
+========================================================
+
+## Data science is often a "second calling"
+- Many data scientists started out as programmers, statisticians, business
+intelligence analysts or scientists
+- Already mastered a number of the skills needed for data science - add
+some more to their repertoire to turn into effective data scientists
+
+
+Skills of a Data Scientist
+========================================================
+
+*So, what skills does a data scientist need to have?*
+
+Data science as such is a relatively new field and, honestly, there isn't
+a unanimous view of what a curriculum on this subject should look like.
+What is clear, however, is that **you need to learn/know quite a lot of stuff.**
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-200px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/Data_Science_VD.png"></img></div></div>
+
+
+Skills of a Data Scientist
+========================================================
+
+Add an extra dimension, just as important: *communication skills*.
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+## Your goal:
+
+This region is where you want to be; blending skills from statistics,
+programming and domain knowledge.
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/goal.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're **coming from academia** you are likely starting out from here.
+
+- Main challenge: acquiring domain expertise
+- Learn to communicate with non-technical people
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_academia.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're a **business analyst or actuary** you are somewhere around here.
+
+Relative to the goal you are in the region opposite to the scientist - 
+*both profiles complement each other very well*
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_ba.png"></img></div></div>
+
+
+Becoming a Data Scientist
+========================================================
+
+If you're coming from **computer science or programming** and have
+*little or no statistics or research experience*... **you're in the
+"danger zone"!**
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/from_compsci.png"></img></div></div>
+
+
+Summary
+========================================================
+
+- Data science: a second calling
+- Important areas of expertise:
+  - Statistics / Research
+  - Programmming / Machine Learning
+  - Business Knowledge
+  - Communication Skills
+- Take advantage of your strengths, focus on improving your weaknesses
+
+
+========================================================
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>

@@ -1,0 +1,136 @@
+---
+title: "dstrain_01_03_whatisDS"
+author: "Tomás E. Tecce"
+date: "February 3, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 1
+
+*(This is the cover slide)*
+
+In this video I'd like to talk about the data scientist: what kind of skills
+does a data scientist need to have? What is the required knowledge?
+
+
+## Slide 2
+
+As we've seen before, data science draws on many different disciplines:
+statistics, computer science, research, business, communication.
+Statistics is where much of data science's theoretical basis comes from,
+its way of proceeding draws heavily on scientific research, but its rise
+is strongly influenced by the latest developments in technology and
+software.
+
+
+## Slide 3
+
+It takes time to master any one of these disciplines, let alone all of
+them. This is the main reason why data science is usually a "second
+calling" - many data scientists have started out their professional careers as
+programmers, statisticians, business analysts or academic scientists. People in
+those professions have already mastered a number of the skills required for
+data science; after making the choice to transition into this new field, they
+add some more skills to their existing repertoire in order to become effective
+data scientists.
+
+
+## Slide 4
+
+Alright, but what are the skills that a data scientist needs to have?
+
+Well, data science as such is a relatively new field and, though most
+practitioners will agree on what constitutes its core, there isn't a unanimous
+view on what a detailed curriculum on this subject should
+look like. What is clear, however, is that you need to learn a lot of
+stuff. Or maybe not learn it all, but at least you'll need to have a good
+idea about quite a few things.
+
+The Venn diagram presented here is commonly used to illustrate the
+combination of skill sets required to be a successful data scientist: a
+combination of hacking (that is, programming ability), math knowledge, and
+subject matter expertise, business experience.
+
+
+## Slide 5
+
+For this discussion I'll use this modified version as illustration, which
+adds an extra dimension: communication skills. Communication is implicit in the
+previous version, but I think it's important to mention it explicitly.
+
+
+## Slide 6
+
+So, to become a successful data scientist, your goal is to be in the area
+of the diagram which I've outlined in yellow here, blending skills from
+all four major areas: statistics, programming, communication skills and
+domain knowledge.
+
+Of course, you'll be stronger in some areas, and weaker in others. And at
+the start of your journey into data science, this ideal blend of skills
+will be in the distant horizon.
+
+
+## Slide 7
+
+If you are coming to data science from academia (like I did), you are
+likely starting out from somewhere in the region outlined here in green.
+You do have at least a good mathematical foundation, experience with research,
+sometimes even some programming knowledge. Your main challenge is to acquire
+domain expertise: academia can be a very peculiar place, and the transition to
+industry may be more or less traumatic. Processes are different, the jargon is
+different, the goals and expectations are different. Don't be afraid to
+admit what you don't know!
+
+Also, and this is very important, you need to learn to communicate with
+non-technical people. In academia you usually interact with other subject
+matter experts, or with students in your own field. In data science, you need
+to talk more like a science communicator.
+
+
+## Slide 8
+
+If you are a business analyst or an actuary you probably are on the opposite
+side of the diagram. You already are in the industry, so no problem there,
+and you have a more or less in depth knowledge of statistics or data
+analysis. What you mainly need to develop are programming skills, in order to
+get proficient in machine learning applications.
+
+Note that, relative to the goal, you are in the region opposite to the
+scientist. Both profiles complement each other very well! You have analytics as
+a common ground, and you can supply business expertise while the scientist
+provides the machine learning skills.
+
+
+## Slide 9
+
+People coming from computer science or software engineering have some
+advantages, mainly that they already possess technical skills and business
+knowledge. However, these people come into data science from what some call the
+"danger zone". What do we mean by that?
+
+Well, IT professionals "know enough to be dangerous". If you have this
+background, you are perfectly capable of extracting and structuring data, and
+probably even run some type of predictive model and report the coefficients.
+The problem is, it's possible that you lack any understanding of what those
+coefficients mean. The technical skills you have give you the ability to create
+what appears to be a legitimate analysis, without really understanding how you
+got there or what you have created.
+
+Now, this does not mean you cannot be a good, even great, data scientist! It
+just means that you need to be careful with your statistics, and make sure you
+take your time to understand your data and its limitations.
+
+
+## Slide 10
+
+OK, enough about generalities. I hope I have given you a general picture of the
+typical profiles of people who come into data science, and what are the
+advantages and disadvantages of each. In the next lecture we'll go into more
+detail, and talk about which specific knowledge and technological skills are
+most useful for data science.
+
