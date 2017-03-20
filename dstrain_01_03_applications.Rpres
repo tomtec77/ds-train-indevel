@@ -1,0 +1,133 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+
+Data Science: Applications
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Raleway
+font-family: Roboto Slab
+css: style3.css
+
+### Tomas E. Tecce
+#### Data Scientist, Big Data Studio
+
+<div class="midcenter"><div style="margin-left:-0px; margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px; margin-left: 200px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2017</SPAN></div>
+
+
+Product Recommendations
+========================================================
+
+Companies like Amazon, Google, Netflix, Linkedin and many more use
+recommendation engines to promote their products or services in accordance
+with the user's interests, improving user experience.
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-150px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="500" src="images/bbconvert_web-recommended-products-amazon-600x304.png"></img></div></div>
+
+
+Digital Advertisement
+========================================================
+
+Starting from the display banners on various websites to digital
+billboards at airports - almost all of them are decided by using data
+science algorithms.
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-150px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="500" src="images/digital-ads.jpg"></img></div></div>
+
+
+Price Comparison Sites/Apps
+========================================================
+
+Price comparison websites or apps can be found in almost every domain such
+as technology, hospitality, automobiles, durables, apparels etc.
+
+These websites/apps are driven by massive amounts of data collected using
+APIs and RSS Feeds.
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/price-comparison-apps-670x335.jpg"></img></div></div>
+
+
+Fraud Prevention and Risk Detection
+========================================================
+
+Banking companies are using the activity patterns of their users to
+analyze the probabilities of risk and default, and to automatically
+process suspected fraudulent transactions.
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/1.card-1-5.jpg"></img></div></div>
+
+
+Airline Route Planning
+========================================================
+
+Airlines across the world struggle to maintain their occupancy ratio and
+operating profits. Using data science, companies can predict flight
+delays, plan the most efficient routes and effectively drive customer
+loyalty programs.
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="300" src="images/downloadable-route-map-696x201.jpg"></img></div></div>
+
+
+Education
+========================================================
+
+A combination of big data and data science can be used to predict student
+performance, prevent school dropouts, and select personalized learning
+strategies.
+
+<div class="midcenter"><div style="margin-left:-200px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="300" src="images/pygmalion1.jpg"></img></div></div>
+
+
+Delivery Logistics
+========================================================
+
+Logistic companies and major retailers have used data science to improve
+their operational efficiency: discover best shipping routes, best
+packing strategies, optimum stock in stores etc.
+
+<div class="midcenter"><div style="margin-left:-200px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="300" src="images/logistics-02.jpg"></img></div></div>
+
+
+Image Recognition
+========================================================
+
+Current breakthroughs in image recognition technology mean that computers
+can now extract information from images like humans do.
+
+<div class="midcenter"><div style="margin-left:-200px;margin-top:-50px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" h
+height="300" src="images/google-image-recognition-tech.jpg"></img></div></div>
+
+
+And Many More!
+========================================================
+
+Apart from the applications mentioned previously, data science is also
+used in:
+
+- Marketing
+- Finance
+- Human Resources
+- Health Care
+- Government Policies
+
+
+========================================================
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>

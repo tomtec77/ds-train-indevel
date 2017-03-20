@@ -1,0 +1,111 @@
+---
+title: 'Data Science: Applications'
+author: "Tomas E. Tecce"
+date: "20 de marzo de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Title Slide
+
+Another way of trying to figure out what data science is all about is to
+look at some of the most common applications of data science in our daily
+lives. In this lecture we'll quickly review just a few of these
+applications, so that you can see the wide variety of techniques and use
+cases which are covered by data science.
+
+## Slide 1
+
+Let's start with a very common case: product recommendations. Many
+companies such as Amazon, Netflix and others use what are called
+recommendation engines to help users find relevant products and services
+from hundreds or even thousands of options available, improving the
+general user experience.
+
+For example, if you buy a paint roller you may also be interested in
+buying paint, mixing trays or related tools. You could also get a
+recommendation based on things bought by user with similar interests to
+yours.
+
+
+## Slide 2
+
+Related to the previous use case, data science is also applied to digital
+marketing: data science algorithms decide what to display in the
+advertisement banners which nowadays are found in many websites and apps.
+The content of these banners can be targeted based on the user's past
+behaviour and interests; that's why, in the same website, I could be
+seeing ads for airline tickets or hotels (if I'm about to go on vacation,
+say) whereas a friend of mine sees ads for clothing or electronics.
+
+
+## Slide 3
+
+Price comparison websites or applications can be found nowadays in almost
+every domain: technology, hospitality, automobiles, apparel etc. These
+websites are driven by large amounts of data which they collect from
+different sources, and they must present the information in a concise
+manner to help the user decide which would be the best option.
+
+
+## Slide 4
+
+Another very important application of data science originated in banking
+and finance: that of fraud prevention and risk detection. On the one hand,
+these days banks and also online retailers must process thousands of 
+transactions per day, and it's impossible to hold all of them for review
+by a human inspector. By determining the profiles of their clients and
+their normal purchasing history, banks can identify strange cases and flag
+them for closer inspection.
+
+Additionally, financial institutions can use the information to predict
+the probabilities of risk or default, reducing the amount of money lost on
+bad debts.
+
+
+## Slide 5
+
+We also have the case of the airline industry. Companies across the world
+are struggling to maintain their operating profits, and have turned to
+data science to help them identify areas for improvement. Using data
+science, airlines can predict flight delays, plan efficient air routes and
+also drive their customer loyalty programs.
+
+
+## Slide 6
+
+In the field of education, a combination of data science predictive
+methods with big data collected from new educational tools can help
+teachers and school administrators to prevent students from abandoning
+school, and also help tailor the learning experience for each particular
+student.
+
+
+## Slide 7
+
+Logistic companies and major retailers have also used data science to
+improve their operational efficiency. Using data science, they can
+organize the best shipping routes and packing strategies (the most
+efficient way to pack goods considering different stages in the logistics
+chain), the best time to deliver the goods, or what is the optimum stock
+to be kept in stores or in a central warehouse.
+
+
+## Slide 8
+
+Another important area is that of image recognition. You probably have 
+seen how, when you upload an image to Facebook, you get suggestions to
+tag the people that appear in the photo. Current breakthroughs in image
+recognition technology mean that computers can now extract information
+from images in much the same way that humans do.
+
+
+## Slide 9
+
+This has been just a sample of data science applications. Apart from those
+we just mentioned, data science is also used in marketing, finance, human
+resources, healthcare or to plan government policies. Every activity where
+data is generated can be approached using the methods of data science.
