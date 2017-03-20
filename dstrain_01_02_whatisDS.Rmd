@@ -137,30 +137,6 @@ Applying data science, we go from the question "how can I reduce my energy
 consumption?" via data and analysis to an app which helps this consumer to
 make informed decisions and be more energy efficient.
 
-## Slide 10
-
-As we mentioned before, the areas of application for data science are
-many. Here's a list of just a few examples.
-
-- One very common application is developing systems to generate product
-recommendations, such as the ones used by Amazon or Netflix. Given a
-user's profile, we want to recommend a movie or book or some other product
-that he may be interested in and will likely purchase, as opposed to
-suggesting a product at random or simply pushing the most popular items.
-- Another application is understanding the behavior of clients, in order
-to predict when they will leave, for example, or if we could interest
-them in a different class of products or services.
-- We can also define strategies, determine what is the optimum mix of
-products in a store...
-- Or design an effective supply chain model.
-- Another common use is targeted advertisement: for a given user, create a
-personalized marketing strategy according to her history and preferences.
-- And also, detecting and analyzing fraud: are purchases legitimate? In a
-system that handles hundreds of thousands of transactions every day, which
-cannot all be delayed for inspection by a human auditor, can we
-automatically detect and flag suspicious cases?
-- And these are just a small sample of the applications of the methods
-included under the umbrella of data science.
 
 ## Slide 11
 
