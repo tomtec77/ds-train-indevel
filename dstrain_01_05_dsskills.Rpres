@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i;subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 
 <style>
 .footer {
@@ -16,19 +16,34 @@
 }
 </style>
 
-Data Science Skills
+Data Science: Stuff You Need To Know
 ========================================================
 autosize: true
 font-import: https://fonts.googleapis.com/css?family=Raleway
-font-family: Raleway
+font-family: Roboto Slab
 css: style3.css
 
-### Tomás E. Tecce
+### Tomas E. Tecce
 #### Data Scientist, Big Data Studio
 
 <div class="midcenter"><div style="margin-left:-0px; margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
 
 <div class="footer" style="margin-top:-90px; margin-left: 200px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2017</SPAN></div>
+
+
+Skills of a Data Scientist
+========================================================
+
+A successful data scientist needs to combine knowledge from four distinct
+areas: **statistics**, **programming**, **business** and **communication**.
+
+But... *each topic covers a lot of ground!* Which topics should you learn
+first, and what can be left for later? What do you typically find in the
+data scientist's toolkit?
+
+***
+
+<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
 
 
 Skills Needed for Data Science
@@ -84,6 +99,15 @@ Well, You May Find One...
 <div class="midcenter"><div style="margin-left:-400px;margin-top:-100px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/obi-wan.jpg"></img></div></div>
 
 
+What We'd Rather Have...
+========================================================
+
+Instead of someone who knows it all, **we'd rather have a person who enjoys
+challenges and is willing to learn**.
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-100px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/826441219-WA408_The_capacity_to_learn_is_a_gift.jpg"></img></div></div>
+
+
 Data Science as a Team Sport
 ========================================================
 
@@ -93,22 +117,15 @@ Actually, there is one... "I focus on stating the problem, defining what
 data we need, the analysis and extracting insights. The rest of the team
 helps me make it work!"
 
-<div class="midcenter"><div style="margin-left:-350px;margin-top:-150px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="500" src="images/data-science-team.jpg"></img></div></div>
+<div class="midcenter"><div style="margin-left:-350px;margin-top:-110px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="450" src="images/data-science-team.jpg"></img></div></div>
 
 
-
-Skills of a Data Scientist
+Must-Have Starting Skills
 ========================================================
 
-A data scientist should aim at a combination of skills: statistics,
-research, programming, communication.
-
-*But what are the fundamentals? What is optional or could be left for
-later?*
-
-***
-
-<div class="midcenter"><div style="margin-left:-0px;margin-top:-250px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/aiQeT.png"></img></div></div>
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+By "must-have" we mean skills you need to acquire **before** getting into
+machine learning proper.</SPAN>
 
 
 Must-Have Starting Skills
@@ -145,13 +162,29 @@ with concepts like:
 Must-Have Starting Skills
 ========================================================
 
-## Programming in R or Python
+## Programming
 
-<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+<SPAN STYLE="font-size:130%; font-weight:bold; line-height:125%;">Choose either R or Python.</SPAN>
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">*Do you know some other language? That's great!<br>Now go learn either R or Python.*</SPAN>
+
 Together they are the *lingua franca* of data science. Knowing one of the
 two will suffice, but you should aim at being proficient in one and have a
-decent knowledge of the other. This includes plotting!
-</SPAN>
+decent knowledge of the other. **This includes plotting!**
+
+
+Must-Have Starting Skills
+========================================================
+
+## Reproducible research
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Whatever research you create should be reproducible. **Reproducibility is
+important because it's the only thing that a data scientist can guarantee
+about a project.**</SPAN>
+
+- If you know / are learning R, you want to look into R Markdown.
+- If you choose Python, learn to use Jupyter notebooks.
 
 
 Must-Have Starting Skills
@@ -165,6 +198,14 @@ SQL.</SPAN>
 
 No need for database administration knowledge, but you should know
 the `SELECT` command inside out!
+
+
+Nice-To-Know Skills
+========================================================
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+These skills and technologies will help you tackle certain types of projects,
+but are not fundamental to start learning data science.</SPAN>
 
   
 Nice-To-Know Skills
@@ -197,14 +238,44 @@ Nice-To-Know Skills
 
 ## Data Mining / Business Intelligence Tools
 
-<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
-Data science can be thought of as an offshoot of business intelligence,
-however it has quickly evolved into a separate discipline with an ethos
-of its own.
-</SPAN>
-
 BI tools such as Pentaho, RapidMiner or Tableau aren't frequently used by
 data scientists.
 
 They can be useful, however, especially for data exploration and
 visualization of results.
+
+
+Nice-To-Know Skills
+========================================================
+
+## Web Design
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Useful to present the final data product in the form of a web application / 
+dashboard.</SPAN>
+
+
+Nice-To-Know Skills
+========================================================
+
+## Cloud Computing / XaaS
+
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Useful for the deployment of the final data product.</SPAN>
+
+
+Summary
+========================================================
+
+The fundamental skills you need to pick up before beginning with machine
+learning and data science projects:
+
+- Get to grips with statistics
+- Pick up R or Python
+- Know your way around SQL
+- Learn about reproducible research
+
+
+========================================================
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>
