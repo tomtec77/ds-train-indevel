@@ -1,0 +1,23 @@
+---
+title: "The Data Science Process"
+author: "Tomas E. Tecce"
+date: "26 de marzo de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 1 
+
+### (The title slide)
+
+Up to this point in the course we have introduced what data science is, and we
+have also discussed the profile of the data scientist. We defined data science as the management of a process to transform data and hypotheses into actionable predictions and insights. In this video we'll discuss the data science process.
+
+
+## Slide 2
+
+When we defined data science as a process, back in our first lecture, we used
+this simplified picture 
