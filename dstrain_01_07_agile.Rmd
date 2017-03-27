@@ -1,0 +1,92 @@
+---
+title: "Data Science and Agile"
+author: "Tomás E. Tecce"
+date: "March 27, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 1 (Title)
+
+
+## Slide 2
+
+What is Agile? Agile methodologies provide a light framework that contains a
+set of practices and techniques which enable a development team to deliver
+value to the client and to adapt to change, reducing the risk associated with
+uncertainty. Agile is a time-boxed, iterative approach to software delivery
+that builds incrementally from the start of the project, instead of trying to
+deliver it all once near the end.
+
+Agile works by breaking projects down into single items of user functionality
+called user stories, prioritizing them, and then continuously delivering them
+in short two-week cycles called iterations or sprints.
+
+Throughout the continuous planning and feedback cycles, teams ensure that they
+meet business needs and that any change required by the client can be assessed
+quickly in order to determine its feasibility according to the current
+priorities.
+
+
+## Slide 3
+
+How does Agile work? Well, first you make a list of the features your client
+would like to see in their software. These are the user stories, and they are
+basically your "to do list". Then you size things up: you estimate how much
+work you'll need to complete the stories, sizing them up relative to each
+other. You ask the customer to set priorities, that is, what is more important,
+what he wants to get done first, and then get to work, getting feedback from
+your customer as you go.
+
+
+## Slide 4
+
+As you start delivering completed features, you'll either a) going fast enough,
+in which case all is good, or b) you don't have enough time to complete your
+tasks. If this is the case, then you either revise your scope, leaving out less
+essential features, or ask the client for more time and money. People usually
+recommend going for the first option!
+
+
+## Slide 5
+
+In Agile, working software is the primary measure of success. The rate at which
+teams can turn their customer's wishes into working software is how
+productivity is measured in this methodology.
+
+Documentation and reports get treated like any other deliverable: they get
+estimated, sized and prioritized like any other user story.
+
+
+## Slide 6
+
+Now this is all very cool, but can you actually use an Agile methodology to
+manage the data science process? Well, you can, but let me tell you it isn't
+easy.
+
+In Agile there is an idea of continuously moving forward in small increments,
+adding more and more functionality to what will eventually be the final
+software product. Now, the final item of a data science project may be a
+software data product, which can be developed using an Agile framework. The
+problem comes mainly from trying to fit the initial stages (data collection and
+cleaning, model building and model evaluation) within Agile.
+
+In a previous video, when talking about the importance of reproducible
+research, I mentioned that the one and only thing that a data scientist can
+guarantee about the data science work is its reproducibility. Everything else
+is uncertain! At the beginning you don't know what the data looks like, if
+there are any major issues affecting the data, and you may discover unexpected
+things along the way. Remember that data science is about discovery! This
+uncertainty greatly affects the definition and estimation of user stories.
+
+Let's consider an example. Let's imagine that we want to create an app to 
+predict airline flight delays. At the beginning, we are promised access to data
+containing a large number of variables (data on repairs to the aircraft,
+typical delays at the different airports, weather conditions etc) and since we
+have to predict a numerical quantity (delay time) we decide we'll start by
+trying a multivariate linear regression. 
+
+Now, if we 
