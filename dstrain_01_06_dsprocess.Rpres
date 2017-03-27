@@ -58,23 +58,38 @@ The Data Science Project Cycle
 ========================================================
 right: 65%
 
-The process involves **a lot of feedback and iteration** - you'll often
-loop back and forth between two or more stages before moving forward in
-the overall process. *This frequent backtracking is inherent to any
-process that involves discovery, and must be accounted for during
-planning!*
+<br><br><br>
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Another view of the data science process is that of the CRISP-DM framework.
+</SPAN>
 
 ***
 
 <div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
-<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/ds-cycle.png"></img><figcaption><small>From PDSwR, Chapter 1</small></figcaption></figure></div></div> 
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/crisp-dm_process_diagram.png"></img></figure></div></div> 
+
+
+The Data Science Project Cycle
+========================================================
+right: 65%
+
+<br><br>
+The data science process involves **a lot of feedback and iteration**. This is
+inherent to any process that involves discovery, and must be accounted for
+during planning.
+
+***
+
+<div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/ds-cycle.png"></img></figure></div></div> 
 
 
 Stage 1: Defining the Goal
 ========================================================
 
-Your first task is to **define a quantifiable goal** - a concrete goal
-begets concrete stopping conditions and acceptance criteria.
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+First task: **identify your problem and define a quantifiable goal**.
+</SPAN>
 
 - Why does your client want the project?
 - What are they doing to solve the problem now, and why isn't that good
@@ -83,56 +98,44 @@ enough?
 collaborate with?
 - How will the results be deployed?
 
-Sometimes more exploratory projects are needed, but you can still scope
-the project with concrete stopping conditions (e.g. a time limit).
-
 
 Stage 2: Getting and Cleaning Data
 ========================================================
-
-Identify the data you need, explore it and process it in order to make it
-suitable for analysis. **This stage is the most important and most
-time-consuming step in the whole process.** If you don't understand your
-data, no amount of machine learning wizardry will help you!
 
 - What data is available?
 - Will it help solve the problem?
 - Is it enough?
 - How about its quality?
 
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+**This stage is the most important and most time-consuming step in the whole
+process.**
+</SPAN>
+
 
 Stage 2: Getting and Cleaning Data
 ========================================================
 
-At this stage you conduct **initial exploration and visualization of the
-data, repair data errors and transform variables as needed**. You may
-discover that:
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Conduct **initial exploration and visualization of the data, repair data errors
+and transform variables as needed**.
+</SPAN>
+
+You may discover that:
 
 - the data is unsuitable,
 - you need additional information,
 - there are things in the data that raise issues more important than the
 one you originally planned to address.
 
-It's common to cycle back and forth between this stage and the previous
-one, as well as between this stage and the modelling stage, as you
-discover things in the data.
-
 
 Stage 3: Modeling
 ========================================================
 
-Here you try to **extract useful insights from the data by means of
-statistics and machine learning** in order to achieve your data science
-goals.
-
-Since many modeling procedures make specific assumptions about data
-distribution and relationships, there will be overlap and back-and-forth
-between this stage and the data cleaning stage as you try to find the best
-form in which to model the data.
-
-
-Stage 3: Modeling
-========================================================
+<SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+**Extract useful insights from the data by means of statistics and machine
+learning in order to achieve your data science goals.**
+</SPAN>
 
 ### Common modeling tasks
 
@@ -150,7 +153,7 @@ effects seen in the data
 Stage 4: Model Evaluation
 ========================================================
 
-Once you have a model:
+### Once you have a model:
 
 - Is it accurate enough? Does it generalize well?
 - Does it perform better than simple guesses or the current estimates?
@@ -164,16 +167,22 @@ data doesn't support the goal you're trying to achieve*.
 Stage 5: Presentation and Documentation
 ========================================================
 
-If your model meets the acceptance criteria, you'll **present your
-results** to your client and other stakeholders. You must also **report on
-interesting finds** during data exploration, and **document the model
-building process** for those who will be responsible for using, running
-and maintaining the model once it's been deployed.
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Present your results to your client and other stakeholders</SPAN>
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Report on interesting finds during data exploration</SPAN>
+- <SPAN STYLE="font-size:130%; font-weight:semibold; line-height:125%;">
+Document the model building process</SPAN>
 
-Different audiences require different kinds of information:
+
+Stage 5: Presentation and Documentation
+========================================================
+
+### Different audiences require different kinds of information
 
 - *Business-oriented audiences* want to understand the impact of your
 findings in terms of business metrics.
+- *Technical users* will want to review the model building process.
 - For *end users*, emphasize how the model will help them do their job
 better.
 
@@ -205,8 +214,14 @@ existing solution).
 - Try to get some idea of the limitations of your data early in the
 process, so you know whether it's adequate to meet your goals.
 
-**Keep all stakeholders informed and involved - no one connected with the
-project should be surprised by the final results.**
+
+Communication is Key
+========================================================
+
+<SPAN STYLE="font-size:170%; font-weight:bold; line-height:125%;">
+Keep all stakeholders informed and involved - no one connected with the
+project should be surprised by the final results.
+</SPAN>
 
 
 ========================================================

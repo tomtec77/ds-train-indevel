@@ -14,10 +14,214 @@ knitr::opts_chunk$set(echo = TRUE)
 ### (The title slide)
 
 Up to this point in the course we have introduced what data science is, and we
-have also discussed the profile of the data scientist. We defined data science as the management of a process to transform data and hypotheses into actionable predictions and insights. In this video we'll discuss the data science process.
+have also discussed the profile of the data scientist. We defined data science
+as the management of a process to transform data and hypotheses into actionable
+predictions and insights. In this video we'll discuss the data science process.
 
 
 ## Slide 2
 
 When we defined data science as a process, back in our first lecture, we used
-this simplified picture 
+this simplified picture to illustrate what the process is like. It's now time
+to go in depth, and discuss what the data science process is really like.
+
+
+## Slide 3
+
+In reality, the process is non-linear; a cycle is a more accurate
+representation. We'll use this representation of the cycle, which comes from
+the book *Practical Data Science with R* by Nina Zumel and John Mount. The
+process starts at the top (the 12 o'clock position) and proceeds clockwise
+through six stages: defining the goal, getting and cleaning data, modeling,
+model evaluation, presentation and documentation, and model deployment.
+
+
+## Slide 4
+
+Another widespread description of the data science cycle is that of the
+CRISP-DM process model. CRISP-DM stands for Cross Industry Standard Process for
+Data Mining. In this view there are also six stages, but presentation and 
+documentation are not considered as a separate stage and data preparation and
+understanding each have their own stage. But in general the different pictures
+are very similar, and in this case the cyclic nature of the process is also
+emphasized.
+
+
+## Slide 5
+
+Ok, back to the Zumel & Mount diagram. Note the in/out arrows that connect the
+different stages of the cycle; what they represent is the high degree of
+feedback and iteration between the stages. You'll often loop back and forth
+between two or more stages before moving forward in the overall process.
+
+For example, let's imagine that your client wants an app to predict churn, that
+is, when his customers will discontinue their subscriptions. You have defined
+the problem (stage 1), are given access to a customer database (stage 2) and
+have decided on a certain machine learning approach (stage 3). But, when you
+evaluate results, you find that your chosen model performs poorly. You need to
+try a different algorithm, but then you find you need additional data; thus,
+you have to go back to stage 2, collect more data and try again.
+
+This going back and forth between the stages is not a deficiency! It is not
+something that can be erradicated through careful planning. This frequent 
+backtracking is inherent to any process that involves discovery, and must be
+accounted for during project planning.
+
+
+## Slide 6
+
+Let's consider each stage in more detail. We have said before that all data
+science projects start, or should start, with a question: what do we want to
+know? What do we want to achieve? Identify your question, and then define a
+quantifiable goal. This is very important, as a concrete goal begets concrete
+stopping conditions and acceptance criteria. You need to find an answer to the
+following questions:
+
+- Why does your client want the project?
+- Do they currently have an approach to solve the problem? Why isn't it good
+enough?
+- What are the available resources? That is, not only data, but also manpower
+and hardware.
+- What would be the final data product?
+
+Sometimes, data science projects do not end in a product like a web app, and
+the goal is more exploratory. Nevertheless you can still scope the project with
+a concrete stopping condition, a time limit for example.
+
+
+## Slide 7
+
+The next step is to collect and clean data. Identify the data you need, explore
+it, and process it in order to make it suitable for analysis. You need to ask
+yourself: what data is available? Does that data actually help to solve the
+problem? Will you need more data? And what about the quality of the data you
+can get?
+
+This stage is the most important and most time-consuming step in the whole
+process. If you don't understand your data, no amount of machine learning
+wizardry will help you!
+
+
+## Slide 8
+
+At this stage you conduct initial exploration and visualization of the data,
+repair data errors and transform variables as needed. You may discover that the
+data is unsuitable for the question you're trying to answer, that you need
+additional information, or even that there are things in the data that raise
+issues more important than the one you (or the client) originally planned to
+address. It's very common to cycle back and forth between this stage and the
+previous one, as well as between this stage and the modelling stage, as you
+discover things in the data or when you find that the models you build do not
+fulfill expectations.
+
+
+## Slide 9
+
+After exploring and preparing the data, you go into the modeling stage. Here
+you try to extract useful insights from the data by means of statistics and
+machine learning, in order to achieve your data science goals.
+
+Since many modeling procedures make specific assumptions about data
+distributions and relationships, there will be overlap and back-and-forth
+between this stage and the data cleaning stage, as you try to find the best
+form in which to model the data.
+
+Some common modeling tasks are the following:
+
+- Classification, when you need to decide if something belongs to one category
+or another.
+- Scoring, which is the prediction or estimation of a numeric value, for 
+example a price or a probability.
+- Ranking, the ordering of items by some criterion or preference.
+- Clustering, which is the grouping of similar items.
+- Finding correlations or potential causes of effects which are seen in the
+data.
+- And finally, characterization, that is, plotting data and generating reports.
+
+This list is by no means exhaustive, just a sampler of the more common tasks
+undertaken at this stage.
+
+
+## Slide 10
+
+After you build a model, you to find out if it's good enough. You need to
+evaluate the model taking into account the quantifiable goals that were
+established at the beginning. Ask yourself the following:
+
+- Is the model accurate enough? Does it generalize well?
+- Does it perform better than existing solutions? Better than simple guesses?
+- Do the results make sense, in the context of the problem domain?
+
+If the answer to any of these questions is "no", you need to either go back to
+the modelling or data collection stages, or even decide that the data doesn't
+support the goal you're trying to achieve.
+
+
+## Slide 11
+
+If your model meets the acceptance criteria, you'll present your results to
+your client and other stakeholders. You should also report on interesting finds
+during data exploration, and document the model building process for those who
+will be responsible for using, running and maintaining the model once it's been
+deployed.
+
+
+## Slide 12
+
+Different audiences require different kinds of information. Business-oriented
+audiences want to understand the impact of your findings in terms of business
+metrics, whereas technical experts will want to discuss the data, model
+selection and validation. For end users, you'll want to emphasize how the model
+will help them do their job better.
+
+
+## Slide 13
+
+Finally, we come to the model deployment stage. Often when the model is
+deployed you, as data scientist, no longer have primary responsibility for its
+day-to-day operation. Nevertheless, you should still ensure that the model runs
+smoothly and doesn't make disastrous unsupervised decisions.
+
+You also want to make sure that the model can be updated as its environment
+changes. This is an important point: data science models are not laws of nature
+like those of gravity or thermodynamics. When data models are put into
+production, the reality they were describing changes, and you'll eventually
+have to update or even replace your model with a different one.
+
+In many situations, the model will be first deployed in a pilot program. This
+test may bring out issues that you didn't anticipate, and the model may have to
+be adjusted accordingly.
+
+
+## Slide 14
+
+Now, to close this lecture, I'd like to talk some more about setting
+expectations for data science projects. Setting expectations is a crucial part
+of defining goals and success criteria. Before going too deep into a project, 
+you should make sure that the resources you have are enough for you to meet the
+business goals. You also need to understand how well a model should do for
+acceptable performance. This is typically done by devising, for comparison
+purposes, what is called a null model.
+
+This null model can be, for example, the simplest possible model you can think
+of. For example, if you need to classify people as either high risk or low risk
+for churn, the simplest possible model would be one that predicts that every
+client leaves (or that every client stays).
+
+Alternatively, if there is some sort of solution already in place, that
+solution will take the role of the baseline model, because whatever you come up
+with should outperform the existing solution.
+
+
+## Slide 15
+
+Alright, we've seen that the data science process, in reality, has a lot of
+feedback and iteration: as we collect data, explore it, and build models, we
+find new things that often force us to go back, review the situation, then
+try again. This is the nature of all processes that involve discovery, but for
+people on the outside who are waiting for results this may look as if no
+progress is being made. I'll talk about how to manage this non-linear process
+in the following video. For now, let me say that to avoid anxiety on the part
+of all project stakeholders, you should keep them informed and involved at all
+times. No one connected with the project should be surprised by its status or
+by its final results.
