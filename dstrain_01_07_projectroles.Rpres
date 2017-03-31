@@ -1,0 +1,59 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
+Data Science Project Roles
+========================================================
+autosize: true
+font-import: https://fonts.googleapis.com/css?family=Raleway
+font-family: Roboto Slab
+css: style3.css
+
+### Tomas E. Tecce
+#### Data Scientist, Big Data Studio
+
+<div class="midcenter"><div style="margin-left:-0px; margin-top:110px;"><img style="margin:0px; background-color:transparent; width:400px; border:0px; box-shadow:none;" src="images/Globant-Logo.svg"></img></div></div>
+
+<div class="footer" style="margin-top:-90px; margin-left: 200px; background-color:transparent;"><SPAN STYLE="font-size:105%;font-weight:bold;">Data Science Training 2017</SPAN></div>
+
+The Data Science Project Cycle
+========================================================
+
+<div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="575" src="images/ds-cycle.png"></img><figcaption><small>From Zumel & Mount, <em>Practical Data Science with R</em>, Ch. 1</small></figcaption></figure></div></div> 
+
+
+Data Science Project Roles
+========================================================
+
+Role | Responsibilities
+-----|-----------------
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Project sponsor</SPAN> | Represents the business interests; champions the project
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Client</SPAN> | Represents the end user's interests; domain expert
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Data scientist</SPAN> | Sets and executes analytic strategy; communicates with sponsor and client
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Data architect</SPAN> | Manages data collection and storage
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Developer</SPAN> | Assists in creating the final data product
+<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Operations</SPAN> | Manages infrastructure; deploys final project results
+
+
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```

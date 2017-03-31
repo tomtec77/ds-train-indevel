@@ -77,10 +77,12 @@ cleaning, model building and model evaluation) within Agile.
 In a previous video, when talking about the importance of reproducible
 research, I mentioned that the one and only thing that a data scientist can
 guarantee about the data science work is its reproducibility. Everything else
-is uncertain! At the beginning you don't know what the data looks like, if
-there are any major issues affecting the data, and you may discover unexpected
-things along the way. Remember that data science is about discovery! This
-uncertainty greatly affects the definition and estimation of user stories.
+is uncertain! At the beginning you don't know what the data looks like or
+whether there are any issues affecting the data. You may have an idea of which
+machine learning algorithm you are going to try, but there is no real guarantee
+that your initial choice will achieve the project goals. And you also may
+discover unexpected things along the way! All this uncertainty greatly affects
+the definition and estimation of user stories.
 
 Let's consider an example. Let's imagine that we want to create an app to 
 predict airline flight delays. At the beginning, we are promised access to data
@@ -88,5 +90,20 @@ containing a large number of variables (data on repairs to the aircraft,
 typical delays at the different airports, weather conditions etc) and since we
 have to predict a numerical quantity (delay time) we decide we'll start by
 trying a multivariate linear regression. 
+
+OK, so the team gets together, creates the user stories and assigns tasks,
+which could be something like this:
+
+- Collect data
+- Data analysis
+- Build model
+- Evaluate model
+- Create application front end
+- Deploy the application
+
+
+
+Do as much front end work in parallel as possible.
+Don't create "generic" tasks 
 
 Now, if we 

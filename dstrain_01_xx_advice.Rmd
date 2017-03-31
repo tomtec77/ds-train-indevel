@@ -1,0 +1,16 @@
+---
+title: "Advice"
+author: "Tomas E. Tecce"
+date: "31 de marzo de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Mock
+
+Never **EVER** agree to start the data analysis and model building with mock
+data.
+
