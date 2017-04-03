@@ -40,20 +40,94 @@ The Data Science Project Cycle
 Data Science Project Roles
 ========================================================
 
-Role | Responsibilities
------|-----------------
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Project sponsor</SPAN> | Represents the business interests; champions the project
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Client</SPAN> | Represents the end user's interests; domain expert
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Data scientist</SPAN> | Sets and executes analytic strategy; communicates with sponsor and client
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Data architect</SPAN> | Manages data collection and storage
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Developer</SPAN> | Assists in creating the final data product
-<SPAN STYLE="font-size:125%; font-weight:bold; line-height:125%;">Operations</SPAN> | Manages infrastructure; deploys final project results
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="575" src="images/dsprojectroles.png"></img></figure></div></div> 
 
 
-
-Slide With Plot
+Data Science Project Roles
 ========================================================
 
-```{r, echo=FALSE}
-plot(cars)
-```
+## Project sponsor
+
+The person who wants the data science result; generally they represent the
+business interests. **Decides success or failure of the project** - getting
+sponsor sign-off is the central organizing goal of a data science project.
+
+### Get clear goals, transform them into quantitative statements!
+
+### The sponsor must be kept informed and involved!
+
+
+Data Science Project Roles
+========================================================
+
+## Client
+
+Represents the model end users's interests (could also be the sponsor). 
+**Interface between the technical details of building a good model and the
+day-to-day work process into which the model will be deployed.**
+
+### End users should be able to / willing to use your model!
+
+### Also keep the client informed!
+
+
+Data Science Project Roles
+========================================================
+
+## Data scientist
+
+**Responsible for taking all necessary steps to make the project succeed,**
+including setting the project strategy and keeping the client informed.
+
+- Design project steps
+- Choose data sources
+- Select tools (software, algorithms)
+- Do the science!
+
+
+The data scientist may fill the roles of the project sponsor (e.g. for a
+project of their own) or of the client (if he can weight business trade-offs)
+**but this isn't ideal**.
+
+
+Data Science Project Roles
+========================================================
+
+## Data architect
+
+Responsible for all of the data and its storage (sometimes manages data
+collection).
+
+- May be someone from outside the team
+
+
+## Developer
+
+Responsible for the production version of the data science result.
+
+- May join the project at a later stage
+
+
+Data Science Project Roles
+========================================================
+
+## Operations
+
+Manages infrastructure, deployment of final project results.
+
+- Usually has operational responsibilities outside of the team
+- May have constraints on response time, programming language, data size
+- Frequently someone already working for the sponsor / client
+
+
+Data Science Project Roles
+========================================================
+
+<div class="midcenter"><div style="margin-left:-300px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="575" src="images/dsprojectroles.png"></img></figure></div></div> 
+
+
+========================================================
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>
