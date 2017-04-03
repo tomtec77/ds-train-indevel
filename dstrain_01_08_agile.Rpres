@@ -61,9 +61,41 @@ What is Agile?
 Agile Features
 ========================================================
 
-- Development is iterative
-- Planning is adaptive
-- Scope can vary
-- Requirements can change
-- Documentation is treated like any other deliverable
-- Working software is the primary measure of success
+- <SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Development is iterative</SPAN>
+- <SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Planning is adaptive</SPAN>
+- <SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Scope can vary</SPAN>
+- <SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Requirements can change</SPAN>
+- <SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Documentation is treated like any other deliverable</SPAN>
+- <SPAN STYLE="font-size:150%;font-weight:bold;line-height:125%;">Working software is the primary measure of success</SPAN>
+
+
+The Challenge of Agile Data Science
+========================================================
+right: 65%
+
+<br><br><br>
+<SPAN STYLE="font-size:150%;font-weight:semibold;line-height:125%;">Warning: not the same type of iteration!</SPAN>
+
+*** 
+
+<div class="midcenter"><div style="margin-left:-150px;margin-top:-275px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" height="575" src="images/ds-cycle.png"></img><figcaption><small>From Zumel & Mount, <em>Practical Data Science with R</em>, Ch. 1</small></figcaption></figure></div></div> 
+
+
+Remember...
+========================================================
+
+<SPAN STYLE="font-size:180%;font-weight:semibold;line-height:125%;">
+The only thing a data scientist can guarantee about the work is its reproducibility.</SPAN>
+
+
+Deliver Knowledge
+========================================================
+
+<div class="midcenter"><div style="margin-left:-150px;margin-top:-100px;">
+<figure><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="images/6c8abd_9444b315f64f4fe7a511f79442bcb016.jpg"></img></figure></div></div> 
+
+
+========================================================
+
+<div class="midcenter"><div style="margin-left:-400px;margin-top:-300px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" width="1366" src="images/end_slide.png"></img></div></div>
