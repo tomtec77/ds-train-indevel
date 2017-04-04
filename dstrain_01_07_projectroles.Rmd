@@ -1,0 +1,151 @@
+---
+title: "Data Science Project Roles"
+author: "Tomas E. Tecce"
+date: "4 de abril de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 1
+
+### (Title slide)
+
+Hi. In this video I'd like to talk about the different roles that one typically
+finds in a data science project.
+
+
+## Slide 2
+
+We've seen what the data science process looks like: it is by nature a cycle,
+with iteration and frequent going back and forth between the different stages
+as you perhaps discover new things in the data or realize that the data you 
+have or the algorithm you initially selected aren't the most appropriate to
+reach the goals you have set at the beginning.
+
+But data science isn't performed by a data scientist working in isolation; it
+is a collaborative effort that draws on a number of skills, tools and roles.
+Let's talk about roles. Obviously there will be a data scientist involved, but
+are there other recurring roles?
+
+
+## Slide 3
+
+Well, besides the data scientist we can identify five major roles in a data
+science project: the project sponsor, the client, the data architect, the
+developer and finally operations. I'll now briefly describe each role.
+
+
+## Slide 4
+
+First, the project sponsor. This is arguably the most important role in a data
+science project, yes even more important than the data scientist! The sponsor
+is the person who wants the data science result; this is the person who
+commisioned the work. They generally represent the business interests, and they
+are responsible for deciding whether the project is a success or a failure.
+Therefore, getting sponsor sign-off becomes the central organizing goal of a
+data science project.
+
+Now, to ensure sponsor sign-off what you must do is get clear goals from the
+sponsor. Once you have those goals, you as data scientist should transform them
+into quantitative statements. For example: if you are trying to predict which
+clients will default on their loans, a goal could be "Identify 90% of accounts
+that will go into default at least two months before the first missed payment".
+Such a precise goal will allow you to check in parallel if meeting the goal is
+actually going to make business sense and whether you have data and tools which
+are adequate to achieve the goal.
+
+It's critical to keep the sponsor informed and involved. You need to show them
+plans, progress, and intermediate successes, and keep them well informed of any
+obstacle, any blocker that may come up. If the sponsor is surprised by the
+project outcome, chances are high that he won't like your results.
+
+
+## Slide 5
+
+The client: while the sponsor represents the business interests, the client is
+the role that represents the model's end users's interests. For example, in the
+case of predicting which clients will default, the client could be a loan
+officer or someone who represents their interests.
+
+Sometimes the client and sponsor roles are filled by the same person, but often
+they are not. The client is more hands-on than the sponsor, as they are the
+interface between the technical details of building a good model and the
+day-to-day work process into which the model will be deployed.
+
+The client isn't necessarily mathematically or statistically sophisticated, but
+they know the relevant business processes, they serve as domain experts. As
+with the sponsor, you should keep them well informed, and also take careful
+note of their comments and criticism. The end users should be willing to, and
+able to, use your model! If you devise a sophisticated and accurate model, but
+for whatever reason the end users won't use it, then your project is a failure.
+
+
+## Slide 6
+
+Now, there is no data science without a data scientist, who is responsible for
+taking all the necessary steps to make the project succeed, including setting
+the project strategy and keeping the client informed. Among the data
+scientist's many tasks and responsibilities, they have to design the project
+steps, select the sources of data, the tools and algorithms to use, and of 
+course do the science! That is, perform analysis, statistical testing, applying
+machine learning models.
+
+Sometimes the data scientist may fill the roles of the project sponsor or the
+client, for example if the project was devised by the data scientist himself.
+However, this is not the ideal situation.
+
+
+## Slide 7
+
+Moving on, the role of the data architect is responsible for all of the data
+and its storage. The data architect sometimes also manages data collection.
+Depending on the project, this role may be filled by someone from outside the
+team, for example a database administrator that manages the client's data.
+
+This role could be also filled by the data scientist, but in many cases it's
+best to have a separate person, a specialist, filling this role, especially
+when dealing with big data.
+
+Now, let's imagine that we have analyzed the data and that we have built a
+predictive model that fulfills our project's goals. We need to deploy that
+model into production, but often what the data scientist has created is not in
+an ideal shape for that. That's where the developer comes in: this is the role
+responsible for creating the production version of the data science result.
+This production version may be a version of the machine learning solution in
+a language or platform (for example, Java) that is used in production by the
+client but is not something commonly used by data scientist. Or for another
+example, the client may want a web app but the data scientist doesn't know
+how to create one. In comes a web developer, who creates the application or
+an API to serve the model's results.
+
+All this means that a developer may join the project at a later stage, after
+the data scientist has come up with a working prototype for the solution.
+
+
+## Slide 8
+
+Finally, the operations role manages infrastructure and also deployment of
+final project results. The person filling this role is frequently someone
+already working for your sponsor or client, usually has operational
+responsibilities outside of the team, and may have lots of constraints for the
+final product, for example response time, programming language, data size.
+
+
+## Slide 9
+
+All of these roles work together to achieve success in a data science project.
+Success comes not from access to any one particular tool or technology, but
+from having quantifiable goals, good methodology, cross-discipline interactions
+and a repeatable workflow.
+
+Here at Globant we frequently work using the Agile software development
+methodology. In the next video I'll talk a bit about mixing together data
+science and Agile; let me tell you, mixing the two together is not
+straightforward, but it can be done as long as you keep several things in mind.
+But we'll discuss that in the next video.
+
+
+
